@@ -21,7 +21,7 @@ public class ServicioSocio {
         return socioRepository.findByActivo(activo);
     }
     
-    public Socio crear(Socio s) {
+    public Socio crear(Socio s) { 
         if (s.getEdad() < 14) {
             throw new IllegalArgumentException("La edad mínima permitida es 14 años.");
         }

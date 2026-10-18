@@ -3,7 +3,7 @@ package com.krakdev.fitzone.entidades;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "socios_gym")
+@Table(name = "socios")
 
 public class Socio {
 
